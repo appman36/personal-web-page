@@ -188,15 +188,17 @@ a {
             background-image: url(img/back.jpg);
             background-size: contain;
             background-repeat: no-repeat;
-            opacity: 0.9;
-            padding: 40px 100px;
+            opacity: 1;
+            /* padding: 40px 100px; */
+            padding-top: 100px;
+            padding-bottom: 0px;
+            padding-left: 100px;
+            padding-right: 100px;
             display: flex;
             justify-content: space-between;
     }
 
-    .info img {
-        
-    }
+   
 
     .info p {
         padding: 5px;
@@ -213,13 +215,12 @@ footer {
 
 footer .blocks {
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
 }
 
 footer .blocks p {
     width: 300px;
     margin: 15px 0;
-
 }
 
 footer .blocks h4 {
@@ -227,25 +228,13 @@ footer .blocks h4 {
     font-size: 17px;
 }
 
-footer .blocks ul {
-    list-style: none;
-
-}
-
-footer .blocks ul li {
-    margin-top: 7px;
-    opacity: 0.8;
-}
-
 footer hr {
     margin: 30px 0;
     border: 0;
     height: 0.6px;
     background: #ccc;
-
 }
 
 footer > p {
-    text-align: center;
-    
+    text-align: center;    
 }
